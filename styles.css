@@ -1,0 +1,74 @@
+body {
+    background: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3271&q=80);
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#title, #description {
+    margin: 0;
+}
+
+#description {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: maroon;
+    opacity: 0.7;
+    margin: 40px auto;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+}
+
+label, input, select {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input, select {
+    margin-top: 5px;
+}
+
+#console input {
+    display: inline;
+}
+
+#console label:first-child {
+    margin-top: 15px;
+}
+
+#genres input {
+    display: inline;
+}
+
+#genres label:first-child {
+    margin-top: 15px;
+}
+
+#genres {
+    margin-top: 20px;
+}
+
+#feedback {
+    margin-top: 20px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1 id="title">ED Games Survey</h1>
+    <p id="description">We want to get your feedback so that we can improve our games</p>
+</header>
+<form id="survey-form">
+    <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+    <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required></label>
+    <label id="number-label">Age<input id="number" type="number" placeholder="12" min=4 max=99></label>
+    <label>Favorite Game
+        <select id="dropdown">
+            <option>Select One</option>
+            <option>Game of ED</option>
+            <option>Diehard ED</option>
+            <option>Kill ED</option>
+        </select>
+    </label>
+    <fieldset id="console">Which console do you play on the most?
+        <label for="ps5"><input type="radio" id="ps5" value="ps5" name="console"> PS5</label>
+        <label for="pc"><input type="radio" id="pc" value="pc" name="console"> PC</label>
+        <label for="switch"><input type="radio" id="switch" value="switch" name="console"> Switch</label>
+    </fieldset>
+    <fieldset id="genres">Which genres do you like?
+        <label for="rpg"><input type="checkbox" id="rpg" value="rpg"> RPG</label>
+        <label for="fps"><input id="fps" value="fps" type="checkbox"> FPS</label>
+        <label for="moba"><input id="moba" value="moba" type="checkbox"> MOBA</label>
+        <label for="jrpg"><input id="jrpg" value="jrpg" type="checkbox"> JRPG</label>
+    </fieldset>
+    <label id="feedback" for="feedback">Additional Feedback<textarea rows=10></textarea></label>
+    <input type="submit" id="submit">
+</form>
+</body>
+</html>
